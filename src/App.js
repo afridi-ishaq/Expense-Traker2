@@ -4,6 +4,7 @@ import IncomeExpenses from "./components/IncomeExpenses";
 import './App.css';
 import Balance from "./components/Balance";
 import TransictionList from "./components/TransictionList";
+import AddTransiction from "./components/AddTransiction";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Balance />
         <IncomeExpenses /> 
         <TransictionList />
+        <AddTransiction />
        
       </div>
     </div>
