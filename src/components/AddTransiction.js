@@ -5,7 +5,7 @@ const AddTransiction = () => {
     const [amount,setAmount]=useState(0);
   return (
     <>
-      <h3>Add new transaction</h3>
+      <h3>Add New transaction</h3>
       <form >
         <div className="form-control">
           <label htmlFor="text">Text</label>
@@ -18,7 +18,7 @@ const AddTransiction = () => {
           >
           <input type="number" value={amount} onChange={(e)=>setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
-        <button className="btn">Add transaction</button>
+        <button className="btn">Add Transaction</button>
       </form>
     </>
   )
